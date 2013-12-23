@@ -14,7 +14,7 @@ exports.template = function(grunt, init, done) {
     message: 'Gittip username (adds Gittip badge)'
   };
 
-  init.process({type: 'node'}, [
+  init.process({type: 'sublime-plugin'}, [
     // Prompt for these values.
     init.prompt('name'),
     init.prompt('description'),
