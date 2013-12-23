@@ -24,7 +24,7 @@ exports.template = function(grunt, init, done) {
   ], function(err, props) {
     // Define a short name and short camel name for the prompt
     props.short_name = props.name.replace('sublime-', '');
-    props.short_camel_name = _.camelize(props.short_name);
+    props.short_class_name = _.classify(props.short_name);
 
     // Files to copy (and process).
     var files = init.filesToCopy(props);

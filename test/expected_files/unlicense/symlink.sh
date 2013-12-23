@@ -1,1 +1,1 @@
-ln -s $PWD ~/.config/sublime-text-2/Packages/Request
+ln -s $PWD ~/.config/sublime-text-2/Packages/test-unlicense
