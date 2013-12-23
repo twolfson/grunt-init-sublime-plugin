@@ -1,3 +1,4 @@
 {
-  "name.js": "{%= name %}.js"
+  "name.js": "{%= name %}.js",
+  "dotgitignore": ".gitignore"
 }
