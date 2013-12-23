@@ -23,7 +23,7 @@ describe('An UNLICENSE init', function () {
     // TODO: Consider how to convert this to a flat file
     suppose('grunt-init', ['sublime-plugin'])
       .debug(process.stdout)
-      .on(/Project name/).respond('test-unlicense\n')
+      .on(/Project name/).respond('sublime-test-unlicense\n')
       .on(/Description/).respond('Unlicense test project\n')
       .on(/Licenses/).respond('UNLICENSE\n')
       .on(/Author name/).respond('Todd Wolfson\n')
