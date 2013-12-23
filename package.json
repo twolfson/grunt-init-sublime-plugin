@@ -1,7 +1,7 @@
 {
   "name": "grunt-init-sublime-plugin",
   "description": "Boilerplate for Sublime Text plugins via `grunt-init`",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/twolfson/grunt-init-sublime-plugin",
   "repository": {
     "type": "git",
