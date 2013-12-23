@@ -1,14 +1,14 @@
 {
-  "name": "grunt-init-node",
-  "description": "Boilerplate for node module via `grunt-init`",
-  "version": "0.9.0",
-  "homepage": "https://github.com/twolfson/grunt-init-node",
+  "name": "grunt-init-sublime-plugin",
+  "description": "Boilerplate for Sublime Plugins via `grunt-init`",
+  "version": "0.1.0",
+  "homepage": "https://github.com/twolfson/grunt-init-sublime-plugin",
   "repository": {
     "type": "git",
-    "url": "git://github.com/twolfson/grunt-init-node.git"
+    "url": "git://github.com/twolfson/grunt-init-sublime-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/twolfson/grunt-init-node/issues"
+    "url": "https://github.com/twolfson/grunt-init-sublime-plugin/issues"
   },
   "scripts": {
     "test": "mocha"
