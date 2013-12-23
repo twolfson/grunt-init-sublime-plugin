@@ -21,12 +21,12 @@ describe('An UNLICENSE init', function () {
 
     // Run the grunt-init script inside of the test directory
     // TODO: Consider how to convert this to a flat file
-    suppose('grunt-init', ['node'])
+    suppose('grunt-init', ['sublime-plugin'])
       .debug(process.stdout)
       .on(/Project name/).respond('test-unlicense\n')
       .on(/Description/).respond('Unlicense test project\n')
       .on(/Licenses/).respond('UNLICENSE\n')
-      .on(/Travis CI username/).respond('twolfson\n')
+      .on(/Author name/).respond('Todd Wolfson\n')
       .on(/Gittip username/).respond('twolfson\n')
       .on(/any changes/).respond('n\n')
       ['error'](done)

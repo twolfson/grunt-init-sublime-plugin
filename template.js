@@ -1,3 +1,5 @@
+var _ = require('underscore.string');
+
 // Basic template description.
 exports.description =  'Create Sublime Text plugin';
 
@@ -17,8 +19,13 @@ exports.template = function(grunt, init, done) {
     init.prompt('name'),
     init.prompt('description'),
     init.prompt('licenses', 'UNLICENSE'),
+    init.prompt('author_name'),
     init.prompt('gittip_username'),
   ], function(err, props) {
+    // Define a short name and short camel name for the prompt
+    props.short_name = props.name.replace('sublime-', '');
+    props.short_camel_name = _.camelize(props.short_name);
+
     // Files to copy (and process).
     var files = init.filesToCopy(props);
 
