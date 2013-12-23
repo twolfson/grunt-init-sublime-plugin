@@ -1,4 +1,4 @@
 {
-  "name.js": "{%= name %}.js",
+  "name.py": "{%= short_name %}.py",
   "dotgitignore": ".gitignore"
 }
