@@ -1,3 +1,4 @@
+var fs = require('fs');
 var _ = require('underscore.string');
 
 // Basic template description.
@@ -45,6 +46,7 @@ exports.template = function(grunt, init, done) {
 
     // Actually copy (and process) files.
     init.copyAndProcess(files, props);
+    fs.chmodSync('symlink.sh', 0755);
 
     // All done!
     done();
