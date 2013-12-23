@@ -1,14 +1,21 @@
-# {%= name %} [![Build status](https://travis-ci.org/{%= travis_username %}/{%= name %}.png?branch=master)](https://travis-ci.org/{%= travis_username %}/{%= name %})
+# {%= name %}
 
 {%= description %}
 
 ## Getting Started
-Install the module with: `npm install {%= name %}`
+### Installation
+This package is available under `{%= name %}` inside of [Package Control][], a [Sublime Text][] plugin that allows for easy management of other plugins.
 
-```javascript
-var {%= js_safe_name %} = require('{%= name %}');
-{%= js_safe_name %}.awesome(); // "awesome"
+[Sublime Text]: http://www.sublimetext.com/
+[Package Control]: http://wbond.net/sublime_packages/package_control
+
+If you prefer the manual route, you can install the script via the following command in the Sublime Text terminal (``ctrl+` ``) which utilizes `git clone`.
+
+```python
+import os; path=sublime.packages_path(); (os.makedirs(path) if not os.path.exists(path) else None); window.run_command('exec', {'cmd': ['git', 'clone', 'https://github.com/twolfson/sublime-{%= name %}', '{%= name %}'], 'working_dir': path})
 ```
+
+Packages can be uninstalled via "Package Control: Remove Package" via the command pallete, `ctrl+shift+p` on Windows/Linux, `command+shift+p` on Mac.
 
 ## Documentation
 _(Coming soon)_
