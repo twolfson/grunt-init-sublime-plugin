@@ -27,12 +27,12 @@ _(Coming soon)_
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality.
 
 ## Donating
-Support this project and [others by twolfson][gittip] via [gittip][].
+Support this project and [others by twolfson][gratipay] via [gratipay][].
 
-[![Support via Gittip][gittip-badge]][gittip]
+[![Support via Gratipay][gratipay-badge]][gratipay]
 
-[gittip-badge]: https://rawgithub.com/twolfson/gittip-badge/master/dist/gittip.png
-[gittip]: https://www.gittip.com/twolfson/
+[gratipay-badge]: https://cdn.rawgit.com/gratipay/gratipay-badge/2.x.x/dist/gratipay.png
+[gratipay]: https://www.gratipay.com/twolfson/
 
 ## Unlicense
 As of <%= grunt.template.today('mmm dd yyyy') %>, Todd Wolfson has released this repository and its contents to the public domain.

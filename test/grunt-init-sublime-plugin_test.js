@@ -27,7 +27,7 @@ describe('An UNLICENSE init', function () {
       .on(/Description/).respond('Unlicense test project\n')
       .on(/Licenses/).respond('UNLICENSE\n')
       .on(/Author name/).respond('Todd Wolfson\n')
-      .on(/Gittip username/).respond('twolfson\n')
+      .on(/Gratipay username/).respond('twolfson\n')
       .on(/any changes/).respond('n\n')
       ['error'](done)
       .end(function (code) {
