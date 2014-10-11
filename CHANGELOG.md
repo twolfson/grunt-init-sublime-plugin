@@ -1,4 +1,6 @@
 # grunt-init-sublime-plugin changelog
+1.0.1 - Removed node@0.8 from Travis CI testing
+
 1.0.0 - Moved from Gittip to Gratipay
 
 0.1.1 - Corrected permissions for symlink.sh
