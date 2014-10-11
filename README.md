@@ -7,7 +7,7 @@ The highlights of this repo are:
 - Generate Sublime Text plugin
 - Generate messages.json for plugin
 - Create CHANGELOG.md
-- Include gittip badge
+- Include Gratipay badge
 
 [unlicense-site]: http://unlicense.org/
 [grunt-init]: http://gruntjs.com/project-scaffolding

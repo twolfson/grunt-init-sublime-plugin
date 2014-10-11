@@ -10,9 +10,9 @@ exports.warnOn = '*';
 // The actual init template.
 exports.template = function(grunt, init, done) {
 
-  init.prompts.gittip_username = {
-    name: 'gittip_username',
-    message: 'Gittip username (adds Gittip badge)'
+  init.prompts.gratipay_username = {
+    name: 'gratipay_username',
+    message: 'Gratipay username (adds Gratipay badge)'
   };
 
   init.process({type: 'sublime-plugin'}, [
@@ -21,7 +21,7 @@ exports.template = function(grunt, init, done) {
     init.prompt('description'),
     init.prompt('licenses', 'UNLICENSE'),
     init.prompt('author_name'),
-    init.prompt('gittip_username'),
+    init.prompt('gratipay_username'),
   ], function(err, props) {
     // Define a short name and short camel name for the prompt
     props.short_name = props.name.replace('sublime-', '');
