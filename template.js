@@ -19,6 +19,7 @@ exports.template = function(grunt, init, done) {
     // Prompt for these values.
     init.prompt('name'),
     init.prompt('description'),
+    init.prompt('version'),
     init.prompt('licenses', 'UNLICENSE'),
     init.prompt('author_name'),
     init.prompt('gratipay_username'),

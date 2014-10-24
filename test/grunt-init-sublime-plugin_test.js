@@ -25,6 +25,7 @@ describe('An UNLICENSE init', function () {
       .debug(process.stdout)
       .on(/Project name/).respond('sublime-test-unlicense\n')
       .on(/Description/).respond('Unlicense test project\n')
+      .on(/Version/).respond('9.0.0\n')
       .on(/Licenses/).respond('UNLICENSE\n')
       .on(/Author name/).respond('Todd Wolfson\n')
       .on(/Gratipay username/).respond('twolfson\n')
